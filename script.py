@@ -17,8 +17,8 @@ import requests
 #     return greeting
 
 
-# print(greet('Would'))
+# print(greet("Maggie"))
 # print(greet("Jimmy"))
-r = requests.get("https://coreyms.com")
+r = requests.get("https://www.google.com")
 print(r.status_code)
 print(r.ok)
